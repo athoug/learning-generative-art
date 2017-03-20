@@ -4,7 +4,7 @@ You can see a gallary of the sketches <a href="http://athoug.xyz/p5-js-website/g
 
 ### I'm following diffrent recourses to learning
 Below is a list of the **different resources** I am using:
-1. [The p5.js official website] (http://p5js.org/)
-1. [Daniel Shiffman's Videos] (https://www.youtube.com/user/shiffman)
+1. <a href = "http://p5js.org/" >[The p5.js official website]</a>
+1. <a href = "https://www.youtube.com/user/shiffman" >[Daniel Shiffman's Videos]</a>
 
 ##### I'll add more resources once I encounter any
