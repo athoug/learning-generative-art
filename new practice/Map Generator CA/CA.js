@@ -1,8 +1,8 @@
 function CA() {
   // varables 
-  this.shapeSize = 15;
+  this.shapeSize = 10;
   this.width = 600/this.shapeSize;
-  this.height = 450;
+  this.height = 400;
   
   this.cell = new Array(this.height);
   for(var i = 0; i < this.height; i++){
