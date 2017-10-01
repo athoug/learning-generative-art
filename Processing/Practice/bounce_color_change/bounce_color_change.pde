@@ -53,6 +53,18 @@ void draw() {
   if((x > 0 || x < width) && (y <= 0)) {
     y += 1;
   }
+  
+  if((x > 0 || x < width) && (y >= height)) {
+    y -= 1;
+  }
+  
+  if((y > 0 || y < height) && (x >= width)) {
+    x -= 1;
+  }
+  
+   if((y > 0 || y < height) && (x <= 0)) {
+    x += 1;
+  }
 
   noStroke();
   fill(ballColor[colorIndex]);
