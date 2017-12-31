@@ -1,0 +1,29 @@
+
+body {
+  padding: 0; 
+  margin: 0;
+  font-size: 10px;
+}
+  
+canvas {
+  vertical-align: top;
+  
+} 
+
+h1 {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  color: rgba(52, 73, 94, .8);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 900%;
+  
+}
+
+h1.year {
+  top: 17rem;
+  color: rgb(236, 240, 241);
+  background: rgba(52, 73, 94, .8);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
