@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(window.innerWidth, window.innerHeight);
 }
 
 function draw() {
@@ -10,8 +10,8 @@ function draw() {
   noFill();
   
   // add conditional 
-  if(mouseX > 300) {
-    fill(200,200,200,100)
+  if(mouseX > 200) {
+    fill(200,200,200,150);
   }
   ellipse(width/2, height/2, 100, 100);
 }

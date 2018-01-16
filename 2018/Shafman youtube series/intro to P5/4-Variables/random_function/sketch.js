@@ -12,7 +12,7 @@ var loc = {
 };
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(window.innerWidth, window.innerHeight);
   // background
   background(250);
   // remove shape borders
