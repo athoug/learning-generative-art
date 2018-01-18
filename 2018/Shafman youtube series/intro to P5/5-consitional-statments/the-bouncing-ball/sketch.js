@@ -1,4 +1,4 @@
-var x = 0; // declaring the x variable that holds the startig position
+var x = 50; // declaring the x variable that holds the startig position
 var movment = 3; // the variable that holds the increase of the x position
 
 function setup() {
@@ -6,16 +6,16 @@ function setup() {
 }
 
 function draw() {
-  background(10); // background
+  background(241, 196, 15); // background
   
   // shape properties
-  stroke(250);
+  stroke(230, 126, 34);
   strokeWeight(4);
   noFill();
   ellipse(x, 200, 100, 100); // draw the ellipse
   
   // bounce the ball
-  if(x > (width - 50)) {
+  if(x > (width - 50) || x < 50) {
     movment *= -1;
     print("off the screen");
   }
