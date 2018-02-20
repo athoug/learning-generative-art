@@ -75,7 +75,7 @@ function draw() {
 
 // remove when the mouse is clicking the bubble
 function mousePressed() {
-  for (let i = 0; i < bubble.length; i++) {
+  for (let i = bubble.length-1; i >= 0; i--) {
     if (bubble[i].containes(mouseX, mouseY)) {
       bubble.splice(i, 1);
     }
